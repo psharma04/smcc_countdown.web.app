@@ -9471,7 +9471,7 @@
                         })
                     }
                     return l.a.createElement(K, null, l.a.createElement(X, null, "Contribute to SMCC Countdown"), n, l.a.createElement(Q, null, "How to contribute:"), l.a.createElement("ol", null, l.a.createElement(se, null, "Make a fork of the ", l.a.createElement("a", {
-                        href: "https://github.com/psharma04/smcc-countdown"
+                        href: "https://github.com/psharma04/smcc_countdown.web.app"
                     }, "GitHub Repository")), l.a.createElement(se, null, "Add your code to the fork"), l.a.createElement(se, null, 'Open an issue requesting a new feature'), l.a.createElement(se, null, "If the fork is valid, it will be merged with credit into the master branch")), l.a.createElement("br", null), l.a.createElement(ue, {
                         innerRef: this.inputRef,
                         type: "file",
