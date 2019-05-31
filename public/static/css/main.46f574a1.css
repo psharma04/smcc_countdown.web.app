@@ -4,12 +4,17 @@ body {
     padding: 0;
     font-family: Fira Sans, sans-serif
 }
-
+a {
+	color: blue
+}
 * {
     color: #000;
     -webkit-transition: color 1s, background-color 1s, opacity .5s;
     -o-transition: color 1s, background-color 1s, opacity .5s;
     transition: color 1s, background-color 1s, opacity .5s
 }
-
+.folding {
+	text-align:right;
+	background-color:black;
+}
 /*# sourceMappingURL=main.46f574a1.css.map*/

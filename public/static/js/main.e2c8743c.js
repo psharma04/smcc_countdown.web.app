@@ -9091,7 +9091,7 @@
                         onClick: function() {
                             e.changeScreen("classEdit")
                         }
-                    }, "Edit Classes"), l.a.createElement(E, {
+                    }, "Contribute"), l.a.createElement(E, {
                         onClick: function() {
                             e.changeScreen("about")
                         }
@@ -9470,13 +9470,13 @@
                             change: g
                         })
                     }
-                    return l.a.createElement(K, null, l.a.createElement(X, null, "Classes Edit"), n, l.a.createElement(Q, null, "How to upload your timetable: (WORK IN PROGRESS)"), l.a.createElement("ol", null, l.a.createElement(se, null, "Login to the", l.a.createElement("a", {
-                        href: "https://idp.cenet.catholic.edu.au/nidp/portal"
-                    }, "Student Portal")), l.a.createElement(se, null, "Go to the Timetable tab"), l.a.createElement(se, null, 'Click "Export as ICal"'), l.a.createElement(se, null, "Upload the downloaded iCal below")), l.a.createElement(Q, null, "PLEASE CHECK THAT YOUR TIMETABLE IS CORRECT AFTER UPLOADING. SENTRAL'S ICAL GENERATOR IS INCONSISTENT, SO THERE MAY BE ERRORS AFTER UPLOADING TO SMCC COUNTDOWN."), l.a.createElement("br", null), l.a.createElement(ue, {
+                    return l.a.createElement(K, null, l.a.createElement(X, null, "Contribute to SMCC Countdown"), n, l.a.createElement(Q, null, "How to contribute:"), l.a.createElement("ol", null, l.a.createElement(se, null, "Make a fork of the ", l.a.createElement("a", {
+                        href: "https://github.com/psharma04/smcc-countdown"
+                    }, "GitHub Repository")), l.a.createElement(se, null, "Add your code to the fork"), l.a.createElement(se, null, 'Open an issue requesting a new feature'), l.a.createElement(se, null, "If the fork is valid, it will be merged with credit into the master branch")), l.a.createElement("br", null), l.a.createElement(ue, {
                         innerRef: this.inputRef,
                         type: "file",
                         id: "fileInput"
-                    }), l.a.createElement(le, null, "Upload ICal"), o)
+                    }))
                 }
             }]), t
         }(l.a.Component),
@@ -9502,11 +9502,11 @@
                 key: "render",
                 value: function() {
                     var e = l.a.createElement(ve, {
-                        href: "mailto: SMCCcountdown@rbxii3.com"
-                    }, "SMCCcountdown@rbxii3.com");
-                    return l.a.createElement(K, null, l.a.createElement(X, null, "About"), l.a.createElement(J, null, "What is SMCC Countdown?"), l.a.createElement(Q, null, "SMCC Countdown is a simple countdown and timetable app for St Marks Catholic College. It is able to tells you how long until the end of the period, and which periods you have on your timetable each day.", l.a.createElement("br", null), "It was made to be a tool for efficient learning, as easy access to the knowledge of how long is left in the current period can lead to informed decisions when doing classroom activities."), l.a.createElement(J, null, "Feedback"), l.a.createElement(Q, null, "As SMCC Countdown is not for profit, all help is appreciated. If you find a bug, or have suggestions and feedback, we would love to hear from you. Email us at ", e, "."), l.a.createElement(J, null, "App"), l.a.createElement(Q, null, "We are soon deploying a SMCC Countdown app ", l.a.createElement(ve, {
-                        href: "https://play.google.com/store/apps/details?id=com.moodragon46.SMCC_countdown"
-                    }, "on the Google Play store for Android"), ". We do not currently have it on IOS because of the cost (at the time of writing it is $99 for an Apple developer account)."), l.a.createElement(J, null, "Removal of account syncing"), l.a.createElement(Q, null, "Recently, account syncing was removed from SMCC Countdown. The reason for this is that it impeded progress in adding new features, added lots of small bugs that were hard to fix, and generally didn't seem necessary. We also felt that the data stored online (which was your timetable and your colour scheme) is easily to recreate if you lose your local data."))
+                        href: "mailto: smcccountdown@rbxii3.com"
+                    }, "smcccountdown@rbxii3.com");
+                    return l.a.createElement(K, null, l.a.createElement(X, null, "About"), l.a.createElement(J, null, "What is SMCC Countdown?"), l.a.createElement(Q, null, "SMCC Countdown is a simple countdown and timetable app for St Marks Catholic College. It is able to tells you how long until the end of the period, and which periods you have on your timetable each day.", l.a.createElement("br", null), "It was made to be a tool for efficient learning, as easy access to the knowledge of how long is left in the current period can lead to informed decisions when doing classroom activities."), l.a.createElement(J, null, "Feedback"), l.a.createElement(Q, null, "As SMCC Countdown is not for profit, all help is appreciated. If you find a bug, or have suggestions and feedback, we would love to hear from you. Email us at ", e, "."), l.a.createElement(J, null, "App"), l.a.createElement(Q, null, "We are soon deploying a Desktop app for SMCC Countdown ", l.a.createElement(ve, {
+                        href: "https://rbxii3.net/files/smcc_latest.app"
+                    }, " for MacOS"), ". We do not currently have it on iOS because of the cost (at the time of writing it is $99 for an Apple developer account), or Android due to the lack of demand."),)
                 }
             }]), t
         }(l.a.Component),
