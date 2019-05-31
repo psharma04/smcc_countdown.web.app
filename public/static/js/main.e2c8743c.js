@@ -9287,12 +9287,7 @@
                         onClick: function() {
                             return window.open(b.a, "_blank")
                         }
-                    }, "Bell times"), l.a.createElement(ae, null, l.a.createElement(Q, null, l.a.createElement(re, {
-                        innerRef: this.formalRef,
-                        onChange: function() {
-                            e.updateFormal()
-                        }
-                    }), " Monday Formal Assembly Bell Times")))
+                    }, "Bell times"))
                 }
             }]), t
         }(l.a.Component),
