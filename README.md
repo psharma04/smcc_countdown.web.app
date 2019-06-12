@@ -18,8 +18,10 @@
 ## Re-purposing for other schools:
 ### First-time setup:
 1. Clone this repository
-2. Edit public\static\js\jsx\pData.jsx to match your school's bell times
-3. cd to the directory
+2. Edit `public\static\js\main.e2c8743c.js`
+3. Search for string `//Bell Times`
+4. Edit the values in `var r` to match your school's bell times
+3. In a terminal, cd to this directory
 4. Delete .firebaserc (file) and .firebase (directory)
 5. Initialise firebase repository using `firebase init`
 6. Select Database, functions, hosting and storage
@@ -28,8 +30,8 @@
 9. Navigate to the URL of the site to check that it works
 ### Updating code:
 1. Clone this repository to a different directory
-2. Make a backup of your pData.jsx
+2. Make a backup of the `var r` from your `public\static\js\main.e2c8743c.js`
 3. Copy the "public" folder from the updated clone over your public folder in your previous clone
 4. Overwrite all files that conflict
-5. Copy your backed up pData.jsx into public\static\js\jsx\pData.jsx
+5. Copy your backed up `var r` into the updated `public\static\js\main.e2c8743c.js`
 6. Execute `firebase deploy`

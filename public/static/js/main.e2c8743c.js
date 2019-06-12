@@ -16350,62 +16350,62 @@
     }), n.d(t, "c", function() {
         return i
     });
-    var r = {
-            1: {
-                "08:45": "the start of school",
-                "09:59": "the end of period 1",
-                "10:50": "the end of period 2",
-                "11:06": "the end of recess",
-                "11:57": "the end of period 3",
-                "12:48": "the end of period 4",
-                "13:28": "the end of lunch",
-                "14:19": "the end of period 5",
-                "15:10": "the end of school"
-            },
-            2: {
-                "08:45": "the start of school",
-                "09:47": "the end of period 1",
-                "10:38": "the end of period 2",
-                "10:54": "the end of recess",
-                "11:45": "the end of period 3",
-                "12:36": "the end of period 4",
-                "13:22": "the end of lunch",
-                "14:16": "the end of period 5",
-                "15:10": "the end of school"
-            },
-            3: {
-                "08:45": "the start of school",
-                "09:49": "the end of period 1",
-                "10:42": "the end of period 2",
-                "10:58": "the end of recess",
-                "11:51": "the end of period 3",
-                "12:44": "the end of period 4",
-                "13:24": "the end of lunch",
-                "14:17": "the end of period 5",
-                "15:10": "the end of school"
-            },
-            4: {
-                "08:45": "the start of school",
-                "09:54": "the end of period 1",
-                "10:46": "the end of period 2",
-                "11:02": "the end of recess",
-                "11:54": "the end of period 3",
-                "12:46": "the end of period 4",
-                "13:26": "the end of lunch",
-                "14:18": "the end of school",
-                "15:10": "3:10"
-            },
-            5: {
-                "08:45": "the start of school",
-                "09:48": "the end of period 1",
-                "10:40": "the end of period 2",
-                "11:02": "the end of recess",
-                "11:54": "the end of period 3",
-                "12:46": "the end of period 4",
-                "13:26": "the end of lunch",
-                "14:18": "the end of period 5",
-                "15:10": "the end of school"
-            }
+    var r = { //Bell Times
+            1:{//Monday
+				"08:30":"the start of school",
+				"08:45":"the end of Home Room",
+				"09:45":"the end of Session One",
+				"10:45":"the end of Session Two",
+				"11:15":"the end of Recess",
+				"12:15":"the end of Session 3",
+				"13:15":"the end of Session 4",
+				"14:45":"the end of Lunch",
+				"14:45":"the end of school"
+			},
+			2:{//Tuesday
+				"08:30":"the start of school",
+				"08:45":"the end of Home Room",
+				"09:45":"the end of Session One",
+				"10:45":"the end of Session Two",
+				"11:15":"the end of Recess",
+				"12:15":"the end of Session 3",
+				"13:15":"the end of Session 4",
+				"14:45":"the end of Lunch",
+				"14:45":"the end of school"
+			},
+			3:{//Wednesday
+				"08:30":"the start of school",
+				"08:45":"the end of Home Room",
+				"09:45":"the end of Session One",
+				"10:45":"the end of Session Two",
+				"11:15":"the end of Recess",
+				"12:15":"the end of Session 3",
+				"13:15":"the end of Session 4",
+				"13:45":"the end of Lunch",
+				"14:45":"the end of school"
+			},
+			4:{//Thursday
+				"08:30":"the start of school",
+				"08:45":"the end of Home Room",
+				"09:45":"the end of Session One",
+				"10:45":"the end of Session Two",
+				"11:15":"the end of Recess",
+				"12:15":"the end of Session 3",
+				"13:15":"the end of Session 4",
+				"13:45":"the end of Lunch",
+				"14:45":"the end of school"
+			},
+			5:{//Friday
+				"08:30":"the start of school",
+				"08:45":"the end of Home Room",
+				"09:45":"the end of Session One",
+				"10:45":"the end of Session Two",
+				"11:15":"the end of Recess",
+				"12:15":"the end of Session 3",
+				"13:15":"the end of Session 4",
+				"13:45":"the end of Lunch",
+				"14:45":"the end of school"
+			}
         },
         a = {
             "08:45": "the start of school",
@@ -16419,45 +16419,46 @@
             "15:10": "the end of school"
         },
         o = {
-            1: {
-                "09:59": 1,
-                "10:50": 2,
-                "11:57": 3,
-                "12:48": 4,
-                "14:19": 5,
-                "15:10": 6
-            },
-            2: {
-                "09:47": 1,
-                "10:38": 2,
-                "11:45": 3,
-                "12:36": 4,
-                "14:16": 5,
-                "15:10": 6
-            },
-            3: {
-                "09:49": 1,
-                "10:42": 2,
-                "11:51": 3,
-                "12:44": 4,
-                "14:17": 5,
-                "15:10": 6
-            },
-            4: {
-                "09:54": 1,
-                "10:46": 2,
-                "11:54": 3,
-                "12:46": 4,
-                "14:18": 5
-            },
-            5: {
-                "09:48": 1,
-                "10:40": 2,
-                "11:54": 3,
-                "12:46": 4,
-                "14:18": 5,
-                "15:10": 6
-            }
+            1: {// Monday
+				"08:45":1,
+				"09:45":2,
+				"10:15":3,
+				"12:15":4,
+				"13:45":5,
+				"14:45":6
+			},
+			2: {// Tuesday
+				"08:45":1,
+				"09:45":2,
+				"10:15":3,
+				"12:15":4,
+				"13:45":5,
+				"14:45":6
+			},
+			3: {
+				"08:45":1,
+				"09:45":2,
+				"10:15":3,
+				"12:15":4,
+				"13:45":5,
+				"14:45":6
+			},
+			4: {
+				"08:45":1,
+				"09:45":2,
+				"10:15":3,
+				"12:15":4,
+				"13:45":5,
+				"14:45":6
+			},
+			5: {
+				"08:45":1,
+				"09:45":2,
+				"10:15":3,
+				"12:15":4,
+				"13:45":5,
+				"14:45":6
+			}
         },
         i = {
             "10:19": 1,
