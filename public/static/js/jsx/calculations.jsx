@@ -22,6 +22,18 @@ export function timeTillNextMsg(isFormal){
                 
                 return {minsDiff:minsDiff, nextMsg:currMsg};
             }
+		if minsDiff = 2 {
+			showButton = function() {
+        Push.create("2 Minutes Remaining", {
+            body: "There are 2 Minutes remaining until the next session.",
+            icon: "/icon.png",
+            timeout: 5000,
+            onClick: function() {
+                console.log(this);
+            }
+        });
+    };
+		}
         }
 
         return {isSchoolEnded:true};

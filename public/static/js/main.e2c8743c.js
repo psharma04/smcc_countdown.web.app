@@ -2465,7 +2465,7 @@
     }
 }, function(e, t, n) {
     "use strict";
-
+//Calculations
     function r(e) {
         var t = new Date,
             n = t.getDay(),
@@ -2481,7 +2481,19 @@
                     return {
                         minsDiff: 60 * (s - a) + c - i,
                         nextMsg: l
-                    }
+                    };
+				if (minsDiff == minsDiff) {
+					showButton.onclick = function() {
+					Push.create("2 Minutes Remaining", {
+					body: "There are 2 Minutes remaining until the next session.",
+					icon: "/icon.png",
+					timeout: 5000,
+					onClick: function() {
+						console.log(this);
+					}
+					});
+					};
+					}
                 }
             }
             return {
