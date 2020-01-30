@@ -1,6 +1,6 @@
 {
-  "short_name": "Girracount",
-  "name": "Girraween Countdown",
+  "short_name": "SMCCCountdown",
+  "name": "SMCC Countdown",
   "icons": [
     {
       "src": "./favicon192.png",

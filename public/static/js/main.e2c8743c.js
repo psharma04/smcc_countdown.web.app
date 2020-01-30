@@ -16364,6 +16364,7 @@
     });
     var r = { //Bell Times
             1:{//Monday
+        "07:30":"Before School Class",
 				"08:30":"the start of school",
 				"08:45":"the end of Home Room",
 				"09:45":"the end of Session One",
@@ -16375,7 +16376,8 @@
 				"14:45":"the end of school"
 			},
 			2:{//Tuesday
-				"08:30":"the start of school",
+        "07:30":"Before School Class",
+        "08:30":"the start of school",
 				"08:45":"the end of Home Room",
 				"09:45":"the end of Session One",
 				"10:45":"the end of Session Two",
@@ -16386,7 +16388,8 @@
 				"14:45":"the end of school"
 			},
 			3:{//Wednesday
-				"08:30":"the start of school",
+        "07:30":"Before School Class",
+        "08:30":"the start of school",
 				"08:45":"the end of Home Room",
 				"09:45":"the end of Session One",
 				"10:45":"the end of Session Two",
@@ -16397,7 +16400,8 @@
 				"14:45":"the end of school"
 			},
 			4:{//Thursday
-				"08:30":"the start of school",
+        "07:30":"Before School Class",
+        "08:30":"the start of school",
 				"08:45":"the end of Home Room",
 				"09:45":"the end of Session One",
 				"10:45":"the end of Session Two",
@@ -16408,7 +16412,8 @@
 				"14:45":"the end of school"
 			},
 			5:{//Friday
-				"08:30":"the start of school",
+        "07:30":"Before School Class",
+        "08:30":"the start of school",
 				"08:45":"the end of Home Room",
 				"09:45":"the end of Session One",
 				"10:45":"the end of Session Two",
@@ -16420,6 +16425,7 @@
 			}
         },
         a = {
+            "07:30":"before school class",
             "08:45": "the start of school",
             "10:19": "the end of period 1",
             "11:06": "the end of period 2",
@@ -16432,53 +16438,59 @@
         },
         o = {
             1: {// Monday
-				"08:45":1,
-				"09:45":2,
-				"10:15":3,
-				"12:15":4,
-				"13:45":5,
-				"14:45":6
+        "07:30":1,
+				"08:45":2,
+				"09:45":3,
+				"10:15":4,
+				"12:15":5,
+				"13:45":6,
+				"14:45":7
 			},
 			2: {// Tuesday
-				"08:45":1,
-				"09:45":2,
-				"10:15":3,
-				"12:15":4,
-				"13:45":5,
-				"14:45":6
+        "07:30":1,
+				"08:45":2,
+				"09:45":3,
+				"10:15":4,
+				"12:15":5,
+				"13:45":6,
+				"14:45":7
 			},
 			3: {
-				"08:45":1,
-				"09:45":2,
-				"10:15":3,
-				"12:15":4,
-				"13:45":5,
-				"14:45":6
+        "07:30":1,
+				"08:45":2,
+				"09:45":3,
+				"10:15":4,
+				"12:15":5,
+				"13:45":6,
+				"14:45":7
 			},
 			4: {
-				"08:45":1,
-				"09:45":2,
-				"10:15":3,
-				"12:15":4,
-				"13:45":5,
-				"14:45":6
+        "07:30":1,
+				"08:45":2,
+				"09:45":3,
+				"10:15":4,
+				"12:15":5,
+				"13:45":6,
+				"14:45":7
 			},
 			5: {
-				"08:45":1,
-				"09:45":2,
-				"10:15":3,
-				"12:15":4,
-				"13:45":5,
-				"14:45":6
+        "07:30":1,
+				"08:45":2,
+				"09:45":3,
+				"10:15":4,
+				"12:15":5,
+				"13:45":6,
+				"14:45":7
 			}
         },
         i = {
-            "10:19": 1,
-            "11:06": 2,
-            "12:09": 3,
-            "12:56": 4,
-            "14:23": 5,
-            "15:10": 6
+            "07:30":1,
+    				"08:45":2,
+    				"09:45":3,
+    				"10:15":4,
+    				"12:15":5,
+    				"13:45":6,
+    				"14:45":7
         }
 }, function(e, t, n) {
     "use strict";
